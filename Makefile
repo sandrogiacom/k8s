@@ -9,17 +9,17 @@ install-all:
 
 install-dependencies:
 	chmod +x tools/dependencies/ \
-	./dependencies/install.sh
+	./tools/dependencies/install.sh
 
 install-kubectl:
 	chmod +x tools/kubectl/ \
-	./kubectl/install.sh
+	./tools/kubectl/install.sh
 
 install-minikube:
 	chmod +x tools/minikube/ \
-	./minikube/install.sh
+	./tools/minikube/install.sh
 
 install-vbox6:
 	chmod +x tools/vbox6/ \
-	./vbox6/install.sh
+	./tools/vbox6/install.sh
 
