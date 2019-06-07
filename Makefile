@@ -1,6 +1,5 @@
 SHELL = /bin/bash
 
-#.PHONY: install-all install-kubectl install-minikube install-vbox6
 install-all:
 	make install-dependencies
 	make install-kubectl
