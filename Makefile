@@ -2,9 +2,14 @@ SHELL = /bin/bash
 
 #.PHONY: install-all install-kubectl install-minikube install-vbox6
 install-all:
+	make install-dependencies \
 	make install-kubectl \
 	make install-minikube \
 	make install-vbox6
+
+install-dependencies:
+	chmod +x tools/dependencies/ \
+	./dependencies/install.sh
 
 install-kubectl:
 	chmod +x tools/kubectl/ \
