@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo apt install curl
+sudo apt install -y curl
