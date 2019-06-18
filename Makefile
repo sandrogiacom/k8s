@@ -1,10 +1,9 @@
 SHELL = /bin/bash
 
-install-all:
-	make install-dependencies
-	make install-kubectl
-	make install-minikube
-	make install-vbox6
+# Rule "install-all"
+.PHONY: install-all
+.SILENT: install-all
+install-all: install-dependencies install-kubectl install-minikube install-vbox6
 
 install-dependencies:
 	chmod +x tools/dependencies/
