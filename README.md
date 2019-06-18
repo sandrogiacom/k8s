@@ -6,6 +6,10 @@
 * Kubectl
 * Minikube
 
+# Clone this repository
+
+`git clone https://github.com/sandrogiacom/k8s.git`
+
 # Prerequisite
 
 ## Make
