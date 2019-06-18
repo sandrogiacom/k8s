@@ -17,7 +17,7 @@ install-minikube:
 	chmod +x tools/minikube/
 	./tools/minikube/install.sh
 
-install-vbox6:
-	chmod +x tools/vbox6/
-	./tools/vbox6/install.sh
+install-vbox:
+	chmod +x tools/vbox/
+	./tools/vbox/install.sh
 
