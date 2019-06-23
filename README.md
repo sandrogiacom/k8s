@@ -2,9 +2,10 @@
 
 **Kubernetes development tools**
 
-* VirtualBox 6.0
+* Docker
 * Kubectl
 * Minikube
+* VirtualBox
 
 # Clone this repository
 
@@ -24,9 +25,15 @@
 
 ## Separate tools
 
-### VirtualBox 6.0
 
-`make install-vbox6`
+### Docker
+
+`make install-docker`
+
+
+### VirtualBox
+
+`make install-vbox`
 
 ### Kubectl
 
