@@ -3,7 +3,7 @@ SHELL = /bin/bash
 # Rule "install-all"
 .PHONY: install-all
 .SILENT: install-all
-install-all: install-dependencies install-docker install-kubectl install-minikube install-vbox
+install-all: install-dependencies install-docker install-kubectl install-minikube install-vbox install-oc
 
 install-dependencies:
 	chmod +x tools/dependencies/
@@ -24,4 +24,8 @@ install-minikube:
 install-vbox:
 	chmod +x tools/vbox/
 	./tools/vbox/install.sh
+
+install-oc:
+	chmod +x tools/openshift/
+	./tools/openshift/install.sh
 

@@ -6,6 +6,7 @@
 * Kubectl
 * Minikube
 * VirtualBox
+* OpenShift
 
 # Clone this repository
 
@@ -30,7 +31,6 @@
 
 `make install-docker`
 
-
 ### VirtualBox
 
 `make install-vbox`
@@ -42,3 +42,7 @@
 ### Minikube
 
 `make install-minikube`
+
+### OpenShift
+
+`make install-oc`
