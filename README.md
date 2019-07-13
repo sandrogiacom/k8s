@@ -53,7 +53,7 @@ or
 
 
 
-####_Os Types_
+###_Os Types_
 
 - deb: Deabian , Mint, Ubuntu 
 - arch: Arch Linux
