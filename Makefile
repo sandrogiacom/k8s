@@ -6,26 +6,26 @@ SHELL = /bin/bash
 install-all: install-dependencies install-docker install-kubectl install-minikube install-vbox install-oc
 
 install-dependencies:
-	chmod +x tools/dependencies/
-	./tools/dependencies/install.sh
+	chmod +x tools/$(OS)/dependencies/
+	./tools/$(OS)/dependencies/install.sh
 
 install-docker:
-	chmod +x tools/docker/
-	./tools/docker/install.sh
+	chmod +x tools/$(OS)/docker/
+	./tools/$(OS)/docker/install.sh
 
 install-kubectl:
-	chmod +x tools/kubectl/
-	./tools/kubectl/install.sh
+	chmod +x tools/$(OS)/kubectl/
+	./tools/$(OS)/kubectl/install.sh
 
 install-minikube:
-	chmod +x tools/minikube/
-	./tools/minikube/install.sh
+	chmod +x tools/$(OS)/minikube/
+	./tools/$(OS)/minikube/install.sh
 
 install-vbox:
-	chmod +x tools/vbox/
-	./tools/vbox/install.sh
+	chmod +x tools/$(OS)/vbox/
+	./tools/$(OS)/vbox/install.sh
 
 install-oc:
-	chmod +x tools/openshift/
-	./tools/openshift/install.sh
+	chmod +x tools/$(OS)/openshift/
+	./tools/$(OS)/openshift/install.sh
 
