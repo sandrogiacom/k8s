@@ -18,31 +18,42 @@
 
 `sudo apt install make`
 
+or
+
+`sudo pacman -S make`
+
 # Install tools
 
 ## All tools
 
-`make install-all`
+`make install-all OS=deb`
 
 ## Separate tools
 
 
 ### Docker
 
-`make install-docker`
+`make install-docker OS=deb`
 
 ### VirtualBox
 
-`make install-vbox`
+`make install-vbox OS=deb`
 
 ### Kubectl
 
-`make install-kubectl`
+`make install-kubectl OS=deb`
 
 ### Minikube
 
-`make install-minikube`
+`make install-minikube OS=deb`
 
 ### OpenShift
 
-`make install-oc`
+`make install-oc OS=deb`
+
+
+
+###_Os Types_
+
+- deb: Deabian , Mint, Ubuntu 
+- arch: Arch Linux
