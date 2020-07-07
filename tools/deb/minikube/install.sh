@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-curl -Lo minikube https://github.com/kubernetes/minikube/releases/download/v1.6.2/minikube-linux-amd64 && chmod +x minikube && sudo cp minikube /usr/local/bin/ && rm minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
