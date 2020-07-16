@@ -5,6 +5,8 @@
 * Docker
 * Kubectl
 * Minikube
+* Kubens
+* Stern
 * VirtualBox
 * OpenShift
 
@@ -50,7 +52,6 @@ or
 ### OpenShift
 
 `make install-oc OS=deb`
-
 
 
 ### Os Types
